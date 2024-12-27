@@ -30,7 +30,7 @@ public class UserController {
 	@Autowired
 	UserService userService;
 
-	@GetMapping("/getuser")
+	@GetMapping("/getusers")
 	public List<User> getAllUser() {
 		return userService.getAllUsers();
 
